@@ -64,7 +64,7 @@
 				  <li>Un composant d’interface (lien, bouton, élément cliquable dans Flash&hellip;) est activable au clavier et à la souris lorsque l’utilisateur peut enclencher, indifféremment, l’action prévue par le composant d’interface par le clic de la souris ou la touche entrée du clavier.</li>
 				  <li><strong>Attention</strong>&nbsp;: pour certains composants d’interface comme les <span lang="en">sliders</span> (bouton coulissant ou rotatif&hellip;), il n’est pas possible de contrôler le composant par la seule touche d’entrée. Dans cette situation, d’autres touches (comme les touches de direction) peuvent être utilisées.</li>
 				</ul>
-				<p>Dans le référentiel, l’expression "contrôlable par le clavier et la souris" se rapporte également à la présente définition.</p>
+				<p>Dans le référentiel, l’expression «&nbsp;contrôlable par le clavier et la souris&nbsp;» se rapporte également à la présente définition.</p>
 				<p><strong>Note importante&nbsp;:</strong> le recours à certaines technologies peut rendre la gestion du focus trop complexe ou trop instable pour ne reposer que sur la tabulation, les touches de direction et la touche entrée.</p>
 				<p>Dans ce cas, la mise à disposition de raccourcis clavier peut être la seule solution pour rendre le composant utilisable.</p>
 				<p>Le critère peut être considéré comme conforme à la condition que les raccourcis clavier utilisés soient correctement documentés et qu’ils soient fonctionnels quelle que soit la position du focus dans l’interface.</p>
@@ -76,12 +76,12 @@
 				<p>L’API ARIA définit des motifs de conception, par exemple pour un système d’onglet ou une fenêtre modale, destinés à assurer un comportement homogène de référence des composants d’interface. Le respect de ces motifs de conception est exigé par le référentiel RGAA.</p>
 				<p>Néanmoins il est possible d’adapter ces motifs de conception en remplaçant une propriété mal supportée par une propriété équivalente ou en enrichissant le composant de propriétés améliorant l’expérience utilisateur ou sécurisant son comportement.</p>
 				<p>Il appartient à l’auditeur de vérifier que ces adaptations sont cohérentes avec le motif de conception, ne modifient pas le comportement, en termes d’expérience utilisateur, du composant et que le composant adapté est correctement restitué par les technologies d’assistance.</p>
-				<p>Si ces exigences sont respectées, le composant peut-être déclaré "conforme" au motif de conception.</p>
+				<p>Si ces exigences sont respectées, le composant peut-être déclaré «&nbsp;conforme&nbsp;» au motif de conception.</p>
 
 
 			<h3 id="alerte">Alerte</h3>
 
-				<p>Message d’alerte interrompant la navigation ou l’utilisation de la page, notamment en demandant de cliquer sur un bouton ou un lien pour continuer la navigation ou l’utilisation du contenu. Par exemple, une boîte de dialogue générée par JavaScript via la fonction <code lang="en">alert</code>. Par extension, une fenêtre modale (contenu présenté sous forme de "fenêtre" insérée ou affichée dans le DOM) qui nécessite d’être fermée pour continuer la navigation ou l’utilisation du contenu est considérée comme une alerte. Note&nbsp;: la désactivation des alertes concernées peut être proposée avant le déclenchement de l’alerte, par exemple, via un paramètre utilisateur ou lors de l’affichage de la première alerte, par exemple via une case à cocher "ne plus afficher cette alerte".</p>
+				<p>Message d’alerte interrompant la navigation ou l’utilisation de la page, notamment en demandant de cliquer sur un bouton ou un lien pour continuer la navigation ou l’utilisation du contenu. Par exemple, une boîte de dialogue générée par JavaScript via la fonction <code lang="en">alert</code>. Par extension, une fenêtre modale (contenu présenté sous forme de «&nbsp;fenêtre&nbsp;» insérée ou affichée dans le DOM) qui nécessite d’être fermée pour continuer la navigation ou l’utilisation du contenu est considérée comme une alerte. Note&nbsp;: la désactivation des alertes concernées peut être proposée avant le déclenchement de l’alerte, par exemple, via un paramètre utilisateur ou lors de l’affichage de la première alerte, par exemple via une case à cocher «&nbsp;ne plus afficher cette alerte&nbsp;».</p>
 
 
 			<h3 id="alternative--script">Alternative (à script)</h3>
@@ -111,13 +111,13 @@
 				  <li><strong>pour une image-lien</strong>, l’alternative doit permettre de comprendre la fonction et la destination du lien&nbsp;;</li>
 				  <li><strong>pour une image CAPTCHA ou une image-test</strong>, l’alternative ne peut pas apporter l’information véhiculée par l’image sans rendre la fonction associée inopérante. Dans ce cas de figure, l’alternative doit se contenter de permettre d’identifier la nature et la fonction de l’image.</li>
 				</ul>
-				<p><strong>Note 1</strong>&nbsp;: pour une image CAPTCHA l’alternative peut être, par exemple&nbsp;: "Code de sécurité anti-spam" ou "code pour vérifier que vous êtes un humain" ou toute autre alternative permettant à l’utilisateur de comprendre la nature et la fonction de l’image.</p>
+				<p><strong>Note 1</strong>&nbsp;: pour une image CAPTCHA l’alternative peut être, par exemple&nbsp;: «&nbsp;Code de sécurité anti-spam&nbsp;» ou «&nbsp;code pour vérifier que vous êtes un humain&nbsp;» ou toute autre alternative permettant à l’utilisateur de comprendre la nature et la fonction de l’image.</p>
 				<p><strong>Note 2</strong>&nbsp;: pour un groupe d’images, par exemple un système de vote constitué de plusieurs images d’étoiles, il est fortement conseillé d’utiliser la première image du groupe pour donner une alternative plus cohérente au groupe d’image. Dans ce cas, les autres images du groupe sont considérées comme des images de décoration. Vous pouvez consulter, à ce sujet, la note suivante&nbsp;: <a hreflang="en" href="https://www.w3.org/TR/html5/embedded-content-0.html#a-group-of-images-that-form-a-single-larger-picture-with-no-links"><span lang="en">A group of images that form a single larger picture with no links</span></a>.</p>
 
 
 			<h3 id="ambigu-pour-tout-le-monde">Ambigu pour tout le monde</h3>
 
-				<p>L’intention ne peut être déterminée à partir du lien et de toute l’information de la page web présentée à l’utilisateur en même temps que ce lien. (c’est-à-dire qu’un lecteur sans limitation fonctionnelle ne connaîtrait pas la fonction d’un lien avant de l’activer). <strong>Exemple</strong>&nbsp;: le mot "goyave" dans la phrase suivante utilisé comme lien&nbsp;: «&nbsp;L’une des exportations importantes est la goyave&nbsp;». Ce lien pourrait conduire à une définition de la goyave, à un graphe présentant une liste des quantités de goyaves exportées ou à une photo de personnes récoltant la goyave. Jusqu’à ce que le lien soit activé, tout utilisateur est dans l’incertitude et une personne handicapée n’est donc pas désavantagée.</p>
+				<p>L’intention ne peut être déterminée à partir du lien et de toute l’information de la page web présentée à l’utilisateur en même temps que ce lien. (c’est-à-dire qu’un lecteur sans limitation fonctionnelle ne connaîtrait pas la fonction d’un lien avant de l’activer). <strong>Exemple</strong>&nbsp;: le mot «&nbsp;goyave&nbsp;» dans la phrase suivante utilisé comme lien&nbsp;: «&nbsp;L’une des exportations importantes est la goyave&nbsp;». Ce lien pourrait conduire à une définition de la goyave, à un graphe présentant une liste des quantités de goyaves exportées ou à une photo de personnes récoltant la goyave. Jusqu’à ce que le lien soit activé, tout utilisateur est dans l’incertitude et une personne handicapée n’est donc pas désavantagée.</p>
 
 
 			<h3 id="ancre">Ancre</h3>
@@ -191,7 +191,7 @@
 
 			<h3 id="bouton-formulaire">Bouton (formulaire)</h3>
 
-				<p>Élément d’un formulaire qui permet d’effectuer une action prédéfinie. Par exemple, le bouton de soumission d’un formulaire permet l’envoi au serveur des informations collectées pour leur traitement. L’intitulé d’un bouton doit décrire l’action qui résulte de son activation (par exemple&nbsp;: "Lancer votre recherche", "Envoyer votre message").</p>
+				<p>Élément d’un formulaire qui permet d’effectuer une action prédéfinie. Par exemple, le bouton de soumission d’un formulaire permet l’envoi au serveur des informations collectées pour leur traitement. L’intitulé d’un bouton doit décrire l’action qui résulte de son activation (par exemple&nbsp;: «&nbsp;Lancer votre recherche&nbsp;», «&nbsp;Envoyer votre message&nbsp;»).</p>
 				<p>En HTML, il y a trois types de boutons de formulaire&nbsp;:</p>
 				<ul>
 				  <li>Balise input de type <code lang="en">submit</code>, <code lang="en">reset</code> ou <code lang="en">button</code>&nbsp;;</li>
@@ -307,7 +307,7 @@
 				  <li>[code] représente un code de langue valide sur 2 ou 3 caractères&nbsp;;</li>
 				  <li>[option] est une indication laissée à l’appréciation de l’auteur.</li>
 				</ul>
-				<p>Lorsqu’un code de pays est utilisé comme option, il peut servir à indiquer une régionalisation de la langue, l’indication "en-us" indique la langue américaine, par exemple. L’indication du code de langue ne concerne que la partie [code] avant le tiret.</p>
+				<p>Lorsqu’un code de pays est utilisé comme option, il peut servir à indiquer une régionalisation de la langue, l’indication «&nbsp;en-us&nbsp;» indique la langue américaine, par exemple. L’indication du code de langue ne concerne que la partie [code] avant le tiret.</p>
 
 
 			<h3 id="code-valide">Code valide</h3>
@@ -351,7 +351,7 @@
 
 			<h3 id="contenu-visible">Contenu visible</h3>
 
-				<p>Pour le <a href="criteres.html#test-10-2-1">test 10.2.1</a>&nbsp;: "Contenu présent" signifie que le contenu visible reste présent lorsque CSS est désactivé. Par exemple, une image porteuse d’information en propriété de fond CSS invalide ce test car l’information n’est plus "présente" lorsque CSS est désactivé. En revanche, une image porteuse d’information en propriété de fond CSS mais accompagnée d’un texte caché valide ce test car l’information est bien "présente" lorsque CSS est désactivé.</p>
+				<p>Pour le <a href="criteres.html#test-10-2-1">test 10.2.1</a>&nbsp;: «&nbsp;Contenu présent&nbsp;» signifie que le contenu visible reste présent lorsque CSS est désactivé. Par exemple, une image porteuse d’information en propriété de fond CSS invalide ce test car l’information n’est plus «&nbsp;présente&nbsp;» lorsque CSS est désactivé. En revanche, une image porteuse d’information en propriété de fond CSS mais accompagnée d’un texte caché valide ce test car l’information est bien «&nbsp;présente&nbsp;» lorsque CSS est désactivé.</p>
 				<p><strong>Note</strong>&nbsp;: la pratique qui consiste à gérer des images en propriété de fond d’éléments via CSS est formellement déconseillée, même si elle est accompagnée d’un texte caché.</p>
 
 
@@ -387,7 +387,7 @@
 				  <li>GsRGB = G8bit/255&nbsp;;</li>
 				  <li>BsRGB = B8bit/255.</li>
 				</ul>
-				<p>Le caractère "^" est l’opérateur exponentiel.</p>
+				<p>Le caractère «&nbsp;^" est l’opérateur exponentiel.</p>
 				<p><strong>Note</strong>&nbsp;: la mesure de contraste concerne le texte, le texte en image, le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos. Pour le texte et le texte en image dans les animations, le texte de sous-titrage et le texte incrusté dans les vidéos, la taille de la police doit être mesurée par rapport à la taille d’affichage par défaut (telle qu’affichée). Les textes présents dans les éléments d’une image ou d’une vidéo (par exemple un écriteau, une affiche etc.) ne sont pas concernés.</p>
 				<p>Source&nbsp;: <a hreflang="en" href="http://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-procedure">Procédure de calcul de contraste des WCAG (en anglais)</a>.</p>
 
@@ -450,7 +450,7 @@
 			<h3 id="ensemble-de-pages">Ensemble de pages</h3>
 
 				<p>Pages web liées les unes aux autres par des liens et constituant un ensemble cohérent à l’intérieur d’un site web. Par exemple, les pages d’un processus de paiement électronique, les pages d’une rubrique spécifique, les pages d’un blog, les pages d’administration d’un compte client sont autant d’ensembles de page.</p>
-				<p><strong>Note</strong>&nbsp;: la page d’accueil d’un site web peut constituer, à elle seule, un "ensemble de pages" du fait de son unicité.</p>
+				<p><strong>Note</strong>&nbsp;: la page d’accueil d’un site web peut constituer, à elle seule, un «&nbsp;ensemble de pages&nbsp;» du fait de son unicité.</p>
 
 			<h3 id="entte-de-colonne-ou-de-ligne">En-tête de colonne ou de ligne</h3>
 
@@ -510,7 +510,7 @@
 				  <li>Si l’objet multimédia a des sous-titres, il doit avoir une fonctionnalité de contrôle de l’apparition/disparition des sous-titres&nbsp;;</li>
 				  <li>Si l’objet multimédia a une audio-description, il doit avoir une fonctionnalité de contrôle de l’apparition/disparition de l’audio-description.</li>
 				</ul>
-				<p><strong>Note</strong>&nbsp;: s’il n’y a pas de son à un objet multimédia, il n’est pas utile de mettre une fonctionnalité de contrôle du volume. Si cette fonctionnalité est cependant présente et qu’elle nécessite une alternative textuelle pour être comprise par certains utilisateurs (exemple&nbsp;: bouton "volume" dans une vidéo en Flash), il faut alors lui en donner une puisque l’utilisateur est susceptible d’y accéder et de vouloir l’activer.</p>
+				<p><strong>Note</strong>&nbsp;: s’il n’y a pas de son à un objet multimédia, il n’est pas utile de mettre une fonctionnalité de contrôle du volume. Si cette fonctionnalité est cependant présente et qu’elle nécessite une alternative textuelle pour être comprise par certains utilisateurs (exemple&nbsp;: bouton «&nbsp;volume&nbsp;» dans une vidéo en Flash), il faut alors lui en donner une puisque l’utilisateur est susceptible d’y accéder et de vouloir l’activer.</p>
 
 
 			<h2 id="i">I</h2>
@@ -547,7 +547,7 @@
 
 			<h3 id="image-test">Image-test</h3>
 
-				<p>Image servant dans un test, Captcha ou une image servant de test dans un quiz ou un jeu. Exemple&nbsp;: une série d’images présente un détail issu de tableaux célèbres; il faut reconnaître le titre et le peintre de chaque tableau. Dans cette situation, il n’est pas possible de donner une alternative pertinente (par exemple le nom du tableau et/ou du peintre) sans rendre le test inutilisable. L’alternative doit alors se contenter de donner la possibilité d’identifier l’image, par exemple "image 1 du test".</p>
+				<p>Image servant dans un test, Captcha ou une image servant de test dans un quiz ou un jeu. Exemple&nbsp;: une série d’images présente un détail issu de tableaux célèbres; il faut reconnaître le titre et le peintre de chaque tableau. Dans cette situation, il n’est pas possible de donner une alternative pertinente (par exemple le nom du tableau et/ou du peintre) sans rendre le test inutilisable. L’alternative doit alors se contenter de donner la possibilité d’identifier l’image, par exemple «&nbsp;image 1 du test&nbsp;».</p>
 
 
 			<h3 id="image-texte">Image texte</h3>
@@ -632,7 +632,7 @@
 				<p>La valeur est, par exemple, l’élément sélectionné d’une liste déroulante ou la valeur actuelle d’un curseur (slider).</p>
 				<p>Le rôle correspond au type d’élément défini par la spécification HTML ou l’API WAI-ARIA (comme la balise <code lang="en">button</code> ou le rôle ARIA <code lang="en">role="button"</code>).</p>
 				<p>Le paramétrage correspond aux informations particulières d’un composant, généralement mis à disposition par l’API WAI-ARIA. Par exemple <code lang="en">aria-controls</code> est un paramètre qui transmet aux APIs l’information que le composant contrôle tel ou tel contenu (référencé par son identifiant - attribut <code lang="en">id</code>).</p>
-				<p>Les changements d’états sont également mis à disposition par l’API WAI-ARIA. Par exemple <code lang="en">aria-expanded</code> est un état permettant de signaler aux APIs que le composant est "ouvert" ou "fermé". <strong>Note&nbsp;:</strong> un état peut également être transmis via le nom, lorsque l’intitulé est changé dynamiquement pour correspondre à l’état de la zone contrôlée notamment.</p>
+				<p>Les changements d’états sont également mis à disposition par l’API WAI-ARIA. Par exemple <code lang="en">aria-expanded</code> est un état permettant de signaler aux APIs que le composant est «&nbsp;ouvert&nbsp;» ou «&nbsp;fermé&nbsp;». <strong>Note&nbsp;:</strong> un état peut également être transmis via le nom, lorsque l’intitulé est changé dynamiquement pour correspondre à l’état de la zone contrôlée notamment.</p>
 				<p>Ces paramètres ne sont pas obligatoires mais peuvent être requis s’ils sont indispensables pour rendre le composant accessible. C’est à l’auditeur de considérer les cas où ces paramètres sont indispensables en fonction du contexte lié à l’utilisation du composant.</p>
 				<p>L’auditeur doit également vérifier que, lorsqu’il sont présents, ces paramètres sont correctement utilisés.</p>
 				<p><strong>Note&nbsp;:</strong> les rôles, propriétés et états ARIA s’implémentent via des attributs, par exemple <code lang="en">role="banner"</code>, <code lang="en">aria-hidden="true"</code>.</p>
@@ -675,8 +675,8 @@
 
 			<h3 id="lien-nature-pas-evidente">Lien dont la nature n’est pas évidente</h3>
 
-				<p>Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains types d’utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte "Nouvelle grève à la SNCF", si le mot "grève" est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activées. En revanche, dans ce texte " Nouvelle grève à la SNCF, lire la suite" si "lire la suite" est un lien, un utilisateur ne percevant pas les couleurs n’aura pas de problème pour en comprendre la nature.</p>
-				<p><strong>Note</strong>&nbsp;: "signalés uniquement par la couleur" signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure&hellip;). En conséquence un lien de la même couleur que le texte environnant est concerné par ce critère.</p>
+				<p>Lien qui peut être confondu avec un texte normal lorsqu’il est signalé uniquement par la couleur par certains types d’utilisateurs ne percevant pas ou mal les couleurs. Par exemple, dans ce texte «&nbsp;Nouvelle grève à la SNCF&nbsp;», si le mot «&nbsp;grève&nbsp;» est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activées. En revanche, dans ce texte «&nbsp; Nouvelle grève à la SNCF, lire la suite&nbsp;» si «&nbsp;lire la suite&nbsp;» est un lien, un utilisateur ne percevant pas les couleurs n’aura pas de problème pour en comprendre la nature.</p>
+				<p><strong>Note</strong>&nbsp;: «&nbsp;signalés uniquement par la couleur&nbsp;» signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure&hellip;). En conséquence un lien de la même couleur que le texte environnant est concerné par ce critère.</p>
 
 
 			<h3 id="lien-explicite-hors-contexte">Lien explicite hors contexte</h3>
@@ -816,7 +816,7 @@
 			<h2 id="p">P</h2>
 
 
-			<h3 id="page-plan-du-site">Page "plan du site"</h3>
+			<h3 id="page-plan-du-site">Page «&nbsp;plan du site&nbsp;»</h3>
 
 				<p>Page dédiée présentant l’arborescence d’un site web, généralement sous forme de listes de liens organisées en rubriques et sous-rubriques donnant accès à l’ensemble des pages du site.</p>
 				<p><strong>Note 1</strong>&nbsp;: les liens du plan du site peuvent être constitués de balises <code lang="en">a</code> ou de balises <code lang="en">area</code>.</p>
@@ -825,7 +825,7 @@
 
 			<h3 id="pertinence-information-autrement-que-par-la-couleur">Pertinence (information autrement que par la couleur)</h3>
 
-				<p>Le moyen pour récupérer une information autrement que par la couleur doit être accessible à tous. Par exemple, dans le cas d’une liste d’articles dont les articles en jaune sont en promotion, l’utilisation de texte caché via CSS est un moyen de récupérer l’information "en promotion", mais il n’est pas pertinent car cette information restera cachée à l’utilisateur qui visualise la page CSS activée.</p>
+				<p>Le moyen pour récupérer une information autrement que par la couleur doit être accessible à tous. Par exemple, dans le cas d’une liste d’articles dont les articles en jaune sont en promotion, l’utilisation de texte caché via CSS est un moyen de récupérer l’information «&nbsp;en promotion&nbsp;», mais il n’est pas pertinent car cette information restera cachée à l’utilisateur qui visualise la page CSS activée.</p>
 				<p><strong>Note</strong>&nbsp;: l’utilisation d’une balise d’emphase (<code lang="en">strong</code> ou <code lang="en">em</code>) comme autre moyen pour récupérer une information donnée par la couleur permet de valider le critère même si ces éléments ne sont généralement pas supportés par les technologies d’assistance, particulièrement les lecteurs d’écrans.</p>
 
 
@@ -844,7 +844,7 @@
 				  <li>En activant l’élément par un raccourci clavier (<code lang="en">accesskey</code>).</li>
 				</ul>
 				<p>Certains éléments reçoivent naturellement le focus, par exemple&nbsp;: <code lang="en">a</code>, <code lang="en">area</code>, <code lang="en">button</code>, <code lang="en">input</code>, <code lang="en">object</code>, <code lang="en">select</code>, <code lang="en">label</code>, <code lang="en">legend</code>, <code lang="en">optgroup</code>, <code lang="en">option</code> et <code lang="en">textarea</code>. Le comportement de l’élément, lors de la prise de focus, dépend de sa nature&nbsp;; un lien, par exemple, devra être activé après la prise de focus (sauf utilisation de script). En revanche, un élément de formulaire, comme <code lang="en">textarea</code>, devra autoriser la saisie suite à la prise de focus. Les éléments <code lang="en">label</code> et <code lang="en">legend</code> ne reçoivent la prise de focus que via le pointeur souris. Pour l’élément <code lang="en">label</code>, le comportement attendu est de transférer la prise de focus sur l’élément qui lui est associé.</p>
-				<p><strong>Note 1</strong>&nbsp;: la spécification WAI-ARIA étend le rôle attribué à l’attribut <code lang="en">tabindex</code> en définissant que tout élément html peut acquérir la possibilité de recevoir le focus en lui attribuant la valeur <code lang="en">tabindex="0"</code>. En revanche, aucun comportement n’est attribué via la seule présence de <code lang="en">tabindex</code>. De même, la valeur <code lang="en">tabindex="-1"</code> retire l’élément qui en est affecté du plan de tabulation en inhibant sa capacité à signaler la "prise de focus". L’utilisation de <code lang="en">tabindex</code>, conformément à la spécification WAI-ARIA, peut valider certains tests relatifs à la gestion du focus de tabulation, notamment.</p>
+				<p><strong>Note 1</strong>&nbsp;: la spécification WAI-ARIA étend le rôle attribué à l’attribut <code lang="en">tabindex</code> en définissant que tout élément html peut acquérir la possibilité de recevoir le focus en lui attribuant la valeur <code lang="en">tabindex="0"</code>. En revanche, aucun comportement n’est attribué via la seule présence de <code lang="en">tabindex</code>. De même, la valeur <code lang="en">tabindex="-1"</code> retire l’élément qui en est affecté du plan de tabulation en inhibant sa capacité à signaler la «&nbsp;prise de focus". L’utilisation de <code lang="en">tabindex</code>, conformément à la spécification WAI-ARIA, peut valider certains tests relatifs à la gestion du focus de tabulation, notamment.</p>
 				<p><strong>Note 2</strong>&nbsp;: l’indication visuelle du focus ne doit pas être dégradée, c’est à dire amoindrie au moyen de valeurs qui en dégrade le style par rapport à son style par défaut.</p>
 
 
@@ -875,7 +875,7 @@
 			<h3 id="correctement-restitue-par-les-technologies-dassistance">Correctement restitué (par les technologies d’assistance)</h3>
 
 				<p>Lorsqu’un critère, un test ou une condition de test demande de vérifier la restitution d’un dispositif, il faut s’assurer que ladite restitution est compatible avec l’accessibilité.</p>
-				<p>Le test consiste à vérifier que la restitution est pertinente pour au moins une des combinaisons de la <a href="base-de-reference.html">base de référence</a> utilisée pour déclarer qu’un élément, un dispositif ou une alternative est "compatible avec l’accessibilité".</p>
+				<p>Le test consiste à vérifier que la restitution est pertinente pour au moins une des combinaisons de la <a href="base-de-reference.html">base de référence</a> utilisée pour déclarer qu’un élément, un dispositif ou une alternative est «&nbsp;compatible avec l’accessibilité&nbsp;».</p>
 				<p>Par exemple&nbsp;: le test 1.3.7 demande de vérifier que l’alternative d’une image porteuse d’information vectorielle est correctement restituée.</p>
 				<p>On procède alors à un test avec NVDA (dernière version) et <span lang="en">Firefox</span>, <span lang="en">JAWS</span> (version précédente) et IE9+, et <span lang="en">Voice Over</span> (dernière version) et Safari.</p>
 				<p>Si on constate que l’alternative est correctement restituée, le test est validé.</p>
@@ -924,7 +924,7 @@
 			<h3 id="soustitres-synchroniss-objet-multimdia">Sous-titres synchronisés (objet multimédia)</h3>
 
 				<p>Texte des informations audio (paroles d’un personnage, bruit important pour comprendre l’action&hellip;) présentes dans un média temporel et affiché de manière synchrone avec le flux de l’objet multimédia.</p>
-				<p><strong>Note 1&nbsp;:</strong> pour différencier les sources sonores (différents personnages, voix off&hellip;), il est recommandé d’utiliser un mécanisme approprié (mise entre crochets, mise en italique, annonce explicite du type "voix off&nbsp;: &hellip;").</p>
+				<p><strong>Note 1&nbsp;:</strong> pour différencier les sources sonores (différents personnages, voix off&hellip;), il est recommandé d’utiliser un mécanisme approprié (mise entre crochets, mise en italique, annonce explicite du type «&nbsp;voix off&nbsp;: &hellip;").</p>
 				<p><strong>Note 2&nbsp;:</strong> il ne faut pas confondre le sous-titrage pour la traduction (<code lang="en">kind="subtitles"</code> en HTML5 par exemple) et le sous-titrage pour sourds et malentendants (<code lang="en">kind="captions"</code> en HTML5 par exemple). Ces deux types de sous-titrage poursuivent des buts différents. Seule la présence et la pertinence d’un sous-titrage pour sourds et malentendants permet d’être conforme.</p>
 
 
@@ -949,7 +949,7 @@
 
 			<h3 id="tableau-de-donnes-complexe">Tableau de données complexe</h3>
 
-				<p>Lorsqu’un tableau de données contient des en-têtes qui ne sont pas répartis uniquement sur la première ligne et/ou la première colonne de la grille ou dont la portée n’est pas valable pour l’ensemble de la colonne ou de la ligne, on parle de tableau de données complexe. Il est alors nécessaire de fournir un "résumé" permettant d’en expliquer sa nature et sa structure afin d’en faciliter la consultation pour des utilisateurs de technologies d’assistance par exemple.</p>
+				<p>Lorsqu’un tableau de données contient des en-têtes qui ne sont pas répartis uniquement sur la première ligne et/ou la première colonne de la grille ou dont la portée n’est pas valable pour l’ensemble de la colonne ou de la ligne, on parle de tableau de données complexe. Il est alors nécessaire de fournir un «&nbsp;résumé" permettant d’en expliquer sa nature et sa structure afin d’en faciliter la consultation pour des utilisateurs de technologies d’assistance par exemple.</p>
 
 
 			<h3 id="tableau-de-mise-en-forme">Tableau de mise en forme</h3>
@@ -1079,10 +1079,10 @@
 				<p><strong>Note</strong>&nbsp;: le format txt ne peut pas être utilisé pour produire une version accessible pour un document en téléchargement.</p>
 
 
-			<h3 id="version-alternative-audio-seulement">Version alternative "audio seulement"</h3>
+			<h3 id="version-alternative-audio-seulement">Version alternative «&nbsp;audio seulement"</h3>
 
-				<p>Une version "audio seulement" est une version sonore, sous la forme d’un simple fichier au format MP3 par exemple, utilisée comme alternative à une vidéo seulement (vidéo sans information sonore). Les seuls utilisateurs impactés par l’accessibilité étant les personnes aveugles, qui ne peuvent pas voir la vidéo, WCAG considère comme acceptable de proposer en alternative une version sonore.</p>
-				<p>La version "audio seulement" doit contenir toutes les informations visuelles importantes de la vidéo.</p>
+				<p>Une version «&nbsp;audio seulement" est une version sonore, sous la forme d’un simple fichier au format MP3 par exemple, utilisée comme alternative à une vidéo seulement (vidéo sans information sonore). Les seuls utilisateurs impactés par l’accessibilité étant les personnes aveugles, qui ne peuvent pas voir la vidéo, WCAG considère comme acceptable de proposer en alternative une version sonore.</p>
+				<p>La version «&nbsp;audio seulement" doit contenir toutes les informations visuelles importantes de la vidéo.</p>
 				<p>Généralement il est plus simple de produire une version sonore qu’une version textuelle lorsque la vidéo est très descriptive (la transcription textuelle nécessitant souvent un travail rédactionnel important). Il est rappelé, néanmoins, que seule la transcription textuelle assure un accès universel aux informations diffusées par la vidéo, dans le cas où un utilisateur ne serait pas en capacité de lancer la vidéo par exemple.</p>
 
 
